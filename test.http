@@ -1,1 +1,2 @@
-GET http://localhost:8080/calculate?operand1=20&operator=*&operand2=30
+// +는 예약어이기 때문에 인코딩이 되어야함
+GET http://localhost:8080/calculate?operand1=20&operator=%2b&operand2=30
